@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 25px;
+    /* background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); */
+    /* background: linear-gradient(to right, #6a67ce, #fc636b); */
+    /* background: linear-gradient(to right, #1CB5E0, #000851); */
+    background: linear-gradient(to right, #1CB5E0, #6a67ce);
+    position: relative;
+}
+
+.main-background {
+    background: #ECF0F3;
+    /* TODO ACOMODAR */
+    height: 95vh;
+}
+
+
+/* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+*/
