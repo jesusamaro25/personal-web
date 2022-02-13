@@ -7,14 +7,19 @@ body {
     background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); */
     /* background: linear-gradient(to right, #6a67ce, #fc636b); */
     /* background: linear-gradient(to right, #1CB5E0, #000851); */
-    background: linear-gradient(to right, #1CB5E0, #6a67ce);
-    position: relative;
 }
 
 .main-background {
     background: #ECF0F3;
-    /* TODO ACOMODAR */
+}
+
+.principal-height {
     height: 95vh;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #1CB5E0, #6a67ce);
+    position: relative;
 }
 
 

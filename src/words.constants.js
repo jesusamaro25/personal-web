@@ -1,0 +1,13 @@
+export const homeConstant = 'HOME';
+export const featuresConstant = 'FEATURES';
+export const portfolioConstant = 'PORTFOLIO';
+export const resumeConstant = 'RESUME';
+export const contactConstant = 'CONTACT';
+export const myNameConstant = 'JESÚS AMARO';
+export const welcomeConstant = 'WELCOME TO MY WORLD';
+export const helloConstant = 'Hi, I’m ';
+export const myNameMinConstant = 'Jesús Amaro';
+export const professionConstant = 'Developer';
+export const professionalNetworksConstant = 'PROFESSIONAL NETWORKS';
+export const socialMediasConstant = 'SOCIAL MEDIAS';
+export const descriptionConstant = 'I am a computer engineer with 3 years of experience in web and mobile development. I have collaborated in the companies Marna Garage, Binaural, Conocimiento Corporativo and Innpactia, in addition I remain available and willing to opportunities that allow me to expand my knowledge.'
