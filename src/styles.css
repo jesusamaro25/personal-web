@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    margin: 25px;
-    /* background: #ee0979;
-    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); */
-    /* background: linear-gradient(to right, #6a67ce, #fc636b); */
-    /* background: linear-gradient(to right, #1CB5E0, #000851); */
+    margin: 1.563rem;
 }
 
 .main-background {
@@ -14,7 +10,40 @@ body {
 }
 
 .principal-height {
-    height: 95vh;
+    /* height: 95vh; */
+}
+
+a.cards-styles:hover,
+a.cards-styles:active {
+    background: #6a67ce;
+    fill: white;
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transform: translateY(-.5rem);
+}
+
+.cards-feature:hover svg {
+    fill: white;
+}
+
+.cards-feature:hover h4 {
+    color: white;
+}
+
+.cards-feature:hover p {
+    color: white;
+}
+
+.cards-portfolio:hover h4 {
+    color: #6a67ce;
+}
+
+div.cards-feature:hover,
+div.cards-feature:active {
+    background: #6a67ce;
+    fill: white;
+    color: white;
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transform: translateY(-20px);
 }
 
 .gradient-background {
@@ -22,8 +51,64 @@ body {
     position: relative;
 }
 
+.cards-styles,
+.cards-feature,
+.cards-portfolio,
+.cards-withouthover {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
 
-/* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
-background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
-*/
+.margin-cards {
+    margin: 0.625rem 0.75rem;
+}
+
+.padding-features {
+    padding: 2.188rem 3.125rem 2.188rem 3.125rem;
+}
+
+.text-center-webkit {
+    text-align: -webkit-center;
+}
+
+.border-input {
+    border: .125rem solid #dadada;
+    padding: 0 0.9375rem;
+}
+
+.height-area {
+    min-height: 14.6875rem;
+}
+
+.button-send {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: .3125rem .3125rem .9375rem #D1D9E6, -.3125rem -.3125rem .9375rem #ffffff;
+}
+
+.button-send:hover {
+    background: #6a67ce;
+    color: white;
+    box-shadow: .3125rem .3125rem .9375rem #D1D9E6, -.3125rem -.3125rem .9375rem #ffffff;
+}
+
+.resume-tabs {
+    box-shadow: .3125rem .3125rem .9375rem #D1D9E6, -.3125rem -.3125rem .9375rem #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+
+.space-tabs {
+    padding: 1.875rem 0.625rem;
+}
+
+.resume-anchors:hover {
+    background: #6a67ce;
+    color: white;
+}
+
+
+/* .borders-li {
+    border: .3125rem solid #6a67ce;
+}
+
+.borders-li:hover {
+    border: .3125rem solid #ffffff;
+} */

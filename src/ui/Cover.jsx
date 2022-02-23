@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import * as eva from 'eva-icons';
 import { descriptionConstant, helloConstant, myNameMinConstant, professionalNetworksConstant, professionConstant, socialMediasConstant, welcomeConstant } from '../words.constants'
 
 export const Cover = () => {
+
+
+    useEffect(() => {
+        eva.replace();
+    }, []);
+
     return (
         <div className='ml-auto mr-auto px-4 w-full container pt-8 sm:pt-14'>
             <div className='grid grid-cols-3'>
@@ -20,22 +27,84 @@ export const Cover = () => {
                             </div>
                         </div>
                         <div className='grid grid-cols-2'>
-                            <div className='col-span-2 sm: col-span-1 bg-red-300'><div>
+                            <div className='col-span-2 sm:col-span-1'><div>
                             </div>
-                            <span className='font-medium text-boldblack tracking-widest inline-block mb-5 text-sm'>{professionalNetworksConstant}</span>
+                                <span className='font-medium text-boldblack tracking-widest inline-block mb-5 text-sm'>{professionalNetworksConstant}</span>
+                                <ul className='flex flex-wrap list-none'>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="linkedin-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="github-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="behance-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div className='col-span-2 sm: col-span-1 bg-red-400'><div>
+                            <div className='col-span-2 sm:col-span-1'><div>
                             </div>
-                            <span className='font-medium text-boldblack tracking-widest inline-block mb-5 text-sm'>{socialMediasConstant}</span>
+                                <span className='font-medium text-boldblack tracking-widest inline-block mb-5 text-sm'>{socialMediasConstant}</span>
+                                <ul className='flex flex-wrap list-none'>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='resume-anchors block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="twitter-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='resume-anchors block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="camera-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className='margin-cards cursor-pointer'>
+                                        <a className='resume-anchors block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                            <i
+                                                data-eva="facebook-outline"
+                                                data-eva-animation="pulse"
+                                                data-eva-hover="true"
+                                                data-eva-infinite="false"
+                                            />
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='col-span-3 bg-red-400 lg:col-span-1'>
-                    <div>
-                        <div className='p-4 gradient-background'>
-                            <img className="w-full" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="Personal Portfolio Images" />
-                        </div>
+                <div className='col-span-3 lg:col-span-1 mt-4 lg:mt-0'>
+                    <div className='p-4 gradient-background lg:h-full'>
+                        <img className="w-full lg:h-full" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="Personal Portfolio Images" />
                     </div>
                 </div>
             </div>
