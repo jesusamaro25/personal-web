@@ -3,7 +3,7 @@ import { resumeConstant, yearsExperienceConstnat } from '../words.constants'
 
 export const Resume = () => {
     return (
-        <div className='pt-24'>
+        <section className='pt-24' id="resumesection">
             <hr className='border-lightbackgroundgray mx-auto w-9/12' />
             <div className='pt-24 w-full px-4 container mx-auto'>
                 <div className='grid grid-cols-12'>
@@ -30,6 +30,6 @@ export const Resume = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

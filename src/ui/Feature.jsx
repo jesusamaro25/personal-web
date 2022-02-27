@@ -9,7 +9,7 @@ export const Feature = () => {
     }, []);
 
     return (
-        <div className='pt-24'>
+        <section className='pt-24' id="featuresection">
             <hr className='border-lightbackgroundgray mx-auto w-9/12' />
             <div className='pt-24 w-full px-4 container mx-auto'>
                 <div className='grid grid-cols-12'>
@@ -77,7 +77,7 @@ export const Feature = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

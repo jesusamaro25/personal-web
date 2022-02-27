@@ -25,8 +25,9 @@ export const Contact = () => {
         console.log(contactname, contactnumber, contactemail, contactsubject, contactmessage)
     }
 
+
     return (
-        <div className='pt-24'>
+        <section className='pt-24' id="contactsection">
             <hr className='border-lightbackgroundgray mx-auto w-9/12' />
             <div className='pt-24 w-full px-4 container mx-auto'>
                 <div className='grid grid-cols-12'>
@@ -62,7 +63,7 @@ export const Contact = () => {
                             <div className='mt-6'>
                                 <ul className='flex flex-wrap list-none'>
                                     <li className='margin-cards cursor-pointer'>
-                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                        <a href="https://twitter.com/jesusamaro_" target="_blank" rel="noopener noreferrer" className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
                                             <i
                                                 data-eva="twitter-outline"
                                                 data-eva-animation="pulse"
@@ -72,7 +73,7 @@ export const Contact = () => {
                                         </a>
                                     </li>
                                     <li className='margin-cards cursor-pointer'>
-                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                        <a href="https://www.linkedin.com/in/jesus-amaro-developer/" target="_blank" rel="noopener noreferrer" className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
                                             <i
                                                 data-eva="linkedin-outline"
                                                 data-eva-animation="pulse"
@@ -82,7 +83,7 @@ export const Contact = () => {
                                         </a>
                                     </li>
                                     <li className='margin-cards cursor-pointer'>
-                                        <a className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
+                                        <a href="https://www.facebook.com/jesusamaro25" target="_blank" rel="noopener noreferrer" className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
                                             <i
                                                 data-eva="facebook-outline"
                                                 data-eva-animation="pulse"
@@ -141,6 +142,6 @@ export const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

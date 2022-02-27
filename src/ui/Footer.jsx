@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className='col-span-12 w-full'>
                 <div className='text-center-webkit'>
                     <div className='w-32'>
-                    <a href="#" className="flex flex-col">
+                    <a href="#coversection" className="flex flex-col">
                     <img className="w-full rounded-full" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="user photo" />
                     <span className="pt-4 self-center text-lg font-semibold whitespace-nowrap dark:text-white">{myNameConstant}</span>
                 </a>
