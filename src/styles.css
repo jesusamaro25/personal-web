@@ -108,6 +108,11 @@ div.cards-feature:active {
     color: white;
 }
 
+.active-tabs {
+    background: #6a67ce;
+    color: white;
+}
+
 .is-sticky {
     position: fixed;
     top: 0;

@@ -10,7 +10,6 @@ export const NavBar = () => {
         let sections = document.querySelectorAll('section');
         let navLinks = document.querySelectorAll('nav .container ul li a');
 
-        console.log(navLinks)
         window.addEventListener('scroll', () => {
             let current = '';
             sections.forEach(section => {
@@ -21,7 +20,6 @@ export const NavBar = () => {
             })
             navLinks.forEach(anchor => {
                 anchor.classList.remove('active');
-                console.log(current)
                 if (anchor.classList.contains(current)) {
                     anchor.classList.add('active')
                 }
@@ -60,7 +58,7 @@ export const NavBar = () => {
                     </button>
                     <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
                         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                          
+
                             <li>
                                 <a href="#coversection" className="coversection font-semibold block py-2 pr-4 pl-3 text-terciary border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-terciary dark:hover:text-white md:dark:hover:bg-transparent dark:border-terciary">{homeConstant}</a>
                             </li>
