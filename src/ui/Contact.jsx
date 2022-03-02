@@ -61,6 +61,8 @@ export const Contact = () => {
                                 <span className='font-medium text-boldblack tracking-widest inline-block mb-5 text-sm'>{connectConstant}</span>
                             </div>
                             <div className='mt-6'>
+                            <div className='grid grid-cols-3'>
+                            <div className='col-span-3'>
                                 <ul className='flex flex-wrap list-none'>
                                     <li className='margin-cards cursor-pointer'>
                                         <a href="https://twitter.com/jesusamaro_" target="_blank" rel="noopener noreferrer" className='block w-16 h-16 leading-9 text-center relative rounded-md tracking-iswidermedium text-sm cards-styles flex justify-center items-center'>
@@ -93,6 +95,8 @@ export const Contact = () => {
                                         </a>
                                     </li>
                                 </ul>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
