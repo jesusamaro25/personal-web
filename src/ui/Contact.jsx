@@ -25,6 +25,7 @@ export const Contact = () => {
     const { contactname, contactnumber, contactemail, contactsubject, contactmessage } = formValues;
 
     useEffect(() => {
+        console.log(process.env)
         eva.replace();
     }, []);
 
