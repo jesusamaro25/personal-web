@@ -88,7 +88,7 @@ export const Contact = () => {
                 <div className='grid gap-x-6 grid-cols-3 pt-12'>
                     <div className='col-span-3 p-7 rounded-lg cards-withouthover lg:col-span-1'>
                         <div className='rounded-lg mb-7'>
-                            <img className="w-full" src="http://imgfz.com/i/PHyIKTp.jpeg" alt="contact photo" />
+                            <img className="w-full" src="http://imgfz.com/i/PHyIKTp.jpeg" alt="contact" />
                         </div>
                         <div className='mb-3.5'>
                             <h4 className='boldblack mb-2 text-3xl font-bold'>{myNameMinConstant}</h4>

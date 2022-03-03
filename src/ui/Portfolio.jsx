@@ -24,7 +24,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/GmCbehM.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/GmCbehM.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{mobileConstant}</span>
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/SAZKOGz.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/SAZKOGz.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{fullConstant}</span>
@@ -50,7 +50,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/db5fO14.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/db5fO14.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{fullConstant}</span>
@@ -63,7 +63,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/a4ILtsi.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/a4ILtsi.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{mobileConstant}</span>
@@ -76,7 +76,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/CvX3Wme.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/CvX3Wme.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -89,7 +89,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/exwt4uq.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/exwt4uq.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -102,7 +102,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/K7RJxME.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/K7RJxME.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -115,7 +115,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/MLbqTWa.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/MLbqTWa.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -128,7 +128,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/oGqlcf9.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/oGqlcf9.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -141,7 +141,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/2WCnwaX.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/2WCnwaX.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
@@ -154,7 +154,7 @@ export const Portfolio = () => {
                             <div className='cards-portfolio h-full rounded-2xl p-7'>
                                 <div>
                                     <div>
-                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/2aKp7U1.png" alt="user photo" />
+                                        <img className="w-full h-auto object-cover rounded-lg" src="http://imgfz.com/i/2aKp7U1.png" alt="project" />
                                     </div>
                                     <div className='pt-4'>
                                         <span className='font-medium text-secondary text-sm tracking-wider'>{frontConstant}</span>
