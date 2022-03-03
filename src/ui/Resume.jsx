@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Education } from '../resume/Education'
 import { Experience } from '../resume/Experience'
 import { Skill } from '../resume/Skill'
-import { resumeConstant, yearsExperienceConstnat } from '../words.constants'
-
+import { downloadConstant, resumeConstant, yearsExperienceConstnat } from '../words.constants'
 export const Resume = () => {
 
     const [tabState, setTabState] = useState('skill-tab')
@@ -28,6 +27,10 @@ export const Resume = () => {
      */
     const handleActiveTab = (tab) => {
         setTabState(tab);
+    }
+
+    const handleDownload = () => {
+        window.open('https://online.flippingbook.com/view/874350975/', '_blank');
     }
 
 
@@ -57,6 +60,7 @@ export const Resume = () => {
                             </li>
                         </ul>
                         <div className='mt-16'>
+
                             {
                                 (tabState === 'skill-tab') ?
                                     <Skill />
@@ -66,6 +70,11 @@ export const Resume = () => {
                                         :
                                         (tabState === 'education-tab') && <Education />
                             }
+                            <div className='col-span-12 be-center pt-14'>
+                                <button className='font-medium text-sm rounded-md w-4/12 button-send h-12 flex items-center justify-center text-secondary' onClick={handleDownload}>
+                                    <span className='font-medium text-sm pr-2'>{downloadConstant}</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

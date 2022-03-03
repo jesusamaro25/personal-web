@@ -47,8 +47,8 @@ export const NavBar = () => {
         <header id="homesection">
             <nav className="header-section main-background border-gray-200 px-2 sm:px-4 py-7 rounded dark:bg-gray-800 flex h-fit">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
-                    <a href="#homesection" className="flex">
-                        <img className="image-header w-full h-20 rounded-full mr-3" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="user photo" />
+                    <a href="#coversection" className="flex">
+                        <img className="image-header w-full h-20 rounded-full mr-3" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="user" />
                         <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">{myNameConstant}</span>
                     </a>
                     <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">

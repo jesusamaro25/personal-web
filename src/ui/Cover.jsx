@@ -104,7 +104,7 @@ export const Cover = () => {
                 </div>
                 <div className='col-span-3 lg:col-span-1 mt-4 lg:mt-0'>
                     <div className='p-4 gradient-background lg:h-full'>
-                        <img className="w-full lg:h-full" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="Personal Portfolio Images" />
+                        <img className="w-full lg:h-full" src="http://imgfz.com/i/uDa6PNe.jpeg" alt="Personal Portfolio" />
                     </div>
                 </div>
             </div>
