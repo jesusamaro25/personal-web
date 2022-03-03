@@ -11,7 +11,7 @@ export const Resume = () => {
      * Actice class
      */
     useEffect(() => {
-        let navLinks = document.querySelectorAll('#myTabs li a');
+        let navLinks = document.querySelectorAll('#myTabs li span');
         navLinks.forEach(anchor => {
             anchor.classList.remove('active-tabs');
             if (anchor.classList.contains(tabState)) {
@@ -50,13 +50,13 @@ export const Resume = () => {
                     <div className='col-span-12 w-full'>
                         <ul id='myTabs' role='tablist' className='rounded-lg grid gap-x-6 gap-y-6 grid-cols-3'>
                             <li className='resume-tabs col-span-3 text-center borders-li text-tabcolor text-lg lg:col-span-1'>
-                                <a className='skill-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="skill-tab" data-toggle="tab" role="tab" aria-controls="skill" aria-selected="true" onClick={() => handleActiveTab('skill-tab')} >Professional Skills</a>
+                                <span className='skill-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="skill-tab" data-toggle="tab" role="tab" aria-controls="skill" aria-selected="true" onClick={() => handleActiveTab('skill-tab')} >Professional Skills</span>
                             </li>
                             <li className='resume-tabs col-span-3 text-center borders-li text-tabcolor text-lg lg:col-span-1'>
-                                <a className='experience-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="experience-tab" data-toggle="tab" role="tab" aria-controls="experience" aria-selected="true" onClick={() => handleActiveTab('experience-tab')}>Experience</a>
+                                <span className='experience-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="experience-tab" data-toggle="tab" role="tab" aria-controls="experience" aria-selected="true" onClick={() => handleActiveTab('experience-tab')}>Experience</span>
                             </li>
                             <li className='resume-tabs col-span-3 text-center borders-li text-tabcolor text-lg lg:col-span-1'>
-                                <a className='education-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="education-tab" data-toggle="tab" role="tab" aria-controls="education" aria-selected="true" onClick={() => handleActiveTab('education-tab')}>Education</a>
+                                <span className='education-tab resume-anchors text-boldblack text-lg block font-medium space-tabs cursor-pointer' id="education-tab" data-toggle="tab" role="tab" aria-controls="education" aria-selected="true" onClick={() => handleActiveTab('education-tab')}>Education</span>
                             </li>
                         </ul>
                         <div className='mt-16'>
