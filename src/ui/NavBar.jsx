@@ -19,7 +19,7 @@ export const NavBar = () => {
         ].includes(navigator.platform)
             || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 
-            setdDeviceState(isIos);
+        setdDeviceState(isIos);
 
         //Active Class
 
@@ -72,7 +72,8 @@ export const NavBar = () => {
                                     <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">{myNameConstant}</span>
                                 </>
                                 :
-                                <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">{myNameConstant}</span>
+                                <>
+                                </>
                         }
 
                     </a>
