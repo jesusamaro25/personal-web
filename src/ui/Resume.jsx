@@ -30,7 +30,7 @@ export const Resume = () => {
     }
 
     const handleDownload = () => {
-        window.open('https://online.flippingbook.com/view/874350975/', '_blank');
+        window.open('https://drive.google.com/file/d/1mKzG3diMCTLgA9ziWFaHnj75WvKFWsOV/view?usp=sharing', '_blank');
     }
 
 
