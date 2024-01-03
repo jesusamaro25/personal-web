@@ -1,5 +1,5 @@
 import React from 'react'
-import { angularConstant, april2020Constant, aprilConstant, augustConstant, basicVueTitleConstant, beforeConstant, bootstrapTitleConstant, computerEngineeringConstant, cssTitleConstant, dartConstant, dataBaseConstant, december2021Constant, february2022Constant, FebruaryConstant, ionicTitleConstant, januaryConstant, jsTitleConstant, juneConstant, leaderTitleConstant, marchConstant, masterConstant, may2021Constant, mayConstant, nestConstant, nodeProTitleConstant, nodeTitleConstant, november2021Constant, octoberUdemyConstant, platziConstant, presentConstant, reactTitleConstant, scrumTitleConstant, uclaConstant, udemyConstant } from '../words.constants'
+import { march2023Constant, reactNativeTitleConstant, angularConstant, april2020Constant, aprilConstant, augustConstant, basicVueTitleConstant, beforeConstant, bootstrapTitleConstant, computerEngineeringConstant, cssTitleConstant, dartConstant, dataBaseConstant, december2021Constant, february2022Constant, FebruaryConstant, ionicTitleConstant, januaryConstant, jsTitleConstant, juneConstant, leaderTitleConstant, marchConstant, masterConstant, may2021Constant, mayConstant, nestConstant, nodeProTitleConstant, nodeTitleConstant, november2021Constant, octoberUdemyConstant, platziConstant, presentConstant, reactTitleConstant, scrumTitleConstant, uclaConstant, udemyConstant } from '../words.constants'
 
 export const Education = () => {
   return (
@@ -49,11 +49,17 @@ export const Education = () => {
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{nodeProTitleConstant}</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">{platziConstant}</p>
       </li>
-      <li className="ml-4">
+      <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{FebruaryConstant}</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{scrumTitleConstant}</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">{udemyConstant}</p>
+      </li>
+      <li className="ml-4">
+        <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{FebruaryConstant}</time>
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{computerEngineeringConstant}</h3>
+        <p className="text-base font-normal text-gray-500 dark:text-gray-400">{uclaConstant}</p>
       </li>
     </ol>
 
@@ -61,12 +67,7 @@ export const Education = () => {
       <div className='col-span-1 lg:col-span-1'>
       <span className='text-secondary tracking-iswidermedium leading-3 font-medium text-xl'>{presentConstant}</span>
       <ol className="relative border-l border-gray-400 dark:border-gray-700 mt-10">
-      <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{FebruaryConstant}</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{computerEngineeringConstant}</h3>
-        <p className="text-base font-normal text-gray-500 dark:text-gray-400">{uclaConstant}</p>
-      </li>
+    
       <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{FebruaryConstant}</time>
@@ -103,10 +104,16 @@ export const Education = () => {
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{cssTitleConstant}</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">{udemyConstant}</p>
       </li>
-      <li className="ml-4">
+      <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{february2022Constant}</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{reactTitleConstant}</h3>
+        <p className="text-base font-normal text-gray-500 dark:text-gray-400">{udemyConstant}</p>
+      </li>
+      <li className="ml-4">
+        <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{march2023Constant}</time>
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{reactNativeTitleConstant}</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">{udemyConstant}</p>
       </li>
     </ol>
